@@ -38,6 +38,10 @@ para dibujar arcos en p5.js, usamos la función `arc()`, revisar la documentaci�
 
 ## operador modulo
 
+el operador modulo es un operador matemático que devuelve el resto de la división entre dos números. en p5.js, se representa con el símbolo `%`. por ejemplo, `5 % 2` devuelve `1`, porque 5 dividido por 2 es 2 con un resto de 1.
+
+<https://en.wikipedia.org/wiki/Modulo>
+
 ## cursor
 
 primero hicimos que el cursor no fuera visible cuando estuviéramos sobre la canvas, usando la función `noCursor()`. esta función la incluimos dentro de setup() para que solamente ocurra una vez y al principio del programa.
@@ -201,20 +205,37 @@ estos son los mínimos necesarios para la solemne 1, que es la primera evaluaci�
 
 son 6 requisitos, cada uno será evaluado con puntaje entre 0.0 y 1.0, y la nota final de la solemne 1 se calcula como la suma de los puntajes de cada requisito, más el punto base, para lograr la nota máxima 7.0.
 
-- 8 figuras 2D, incluyendo:
-  - 3 elipses
-  - 3 rectángulos
+### requisito 1
 
-- 10 colores distintos
-  - 2 de ellos deben variar en el tiempo
+8 figuras 2D, incluyendo:
+
+- 3 elipses
+- 3 rectángulos
+
+### requisito 2
+
+10 colores distintos, incluyendo:
+
+- 2 de ellos deben variar en el tiempo
+
+### requisito 3
 
 - 1 cursor distinto al original
 
-- 2 línea de comentario por cada línea de código que explique lo que hace esa líneas, los valores de los parámetros y la referencia al enalce de la documentación de p5.js que corresponda.
+### requisito 4
 
-- 2 imágenes con una fuente clara, declarada, no robar sin decir de dónde viene la imagen, y con el crédito correspondiente.
-  - 1 debe ser estática
-  - 1 debe ser dinámica / en movimiento
+2 líneas de comentarios por cada línea de código que explique lo que hace esa líneas, los valores de los parámetros y la referencia al enalce de la documentación de p5.js que corresponda.
+
+## requisito 5
+
+2 imágenes con una fuente clara, declarada, no robar sin decir de dónde viene la imagen, y con el crédito correspondiente.
+
+- 1 debe ser estática
+- 1 debe ser dinámica / en movimiento
+
+## requisito 6
+
+uso de operador modulo para crear un efecto visual que se repita cada cierto tiempo.
 
 ### descuentos
 

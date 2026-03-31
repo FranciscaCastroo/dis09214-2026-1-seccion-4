@@ -59,15 +59,15 @@ el eje x aumenta hacia la derecha y el eje y aumenta hacia abajo.
 
 podemos hacer que el elemento canvas use la pantalla completa del navegador con las variables internas `windowWidth` y `windowHeight`.
 
-<https://p5js.org/reference/p5/windowWidth/>
-<https://p5js.org/reference/p5/windowHeight/>
+- <https://p5js.org/reference/p5/windowWidth/>
+- <https://p5js.org/reference/p5/windowHeight/>
 
 ## cursor
 
 si queremos dejar de ver el cursor del ratón, podemos usar la función `noCursor()`. si queremos modificar su apariencia, podemos usar la función `cursor()`, que puede cambiar a diferentes formas predefinidas, o también a imágenes subidas.
 
-<https://p5js.org/reference/p5/noCursor/>
-<https://p5js.org/reference/p5/cursor/>
+- <https://p5js.org/reference/p5/noCursor/>
+- <https://p5js.org/reference/p5/cursor/>
 
 ## declaración de variables
 
@@ -145,15 +145,15 @@ en clases vimos dos maneras de describir color:
 
 existen más modos y más colores, más info aquí <https://p5js.org/reference/p5/colorMode/>
 
-<https://p5js.org/reference/p5/color/>
-<https://p5js.org/reference/p5/background/>
-<https://p5js.org/reference/p5/stroke/>
-<https://p5js.org/reference/p5/fill/>
+- <https://p5js.org/reference/p5/color/>
+- <https://p5js.org/reference/p5/background/>
+- <https://p5js.org/reference/p5/stroke/>
+- <https://p5js.org/reference/p5/fill/>
 
 si queremos no pintar el borde de una forma, podemos usar la función `noStroke()`, y si queremos no pintar el relleno, podemos usar la función `noFill()`.
 
-<https://p5js.org/reference/p5/noFill/>
-<https://p5js.org/reference/p5/noStroke/>
+- <https://p5js.org/reference/p5/noFill/>
+- <https://p5js.org/reference/p5/noStroke/>
 
 no usa color, pero por completitud:  <https://p5js.org/reference/p5/strokeWeight>
 
@@ -173,8 +173,8 @@ para dibujar una elipse, usamos la función `ellipse()`, que recibe 4 parámetro
 
 si queremos una circunferencia, el ancho y el alto deben ser iguales, o de frentón usar `circle()`, que recibe 3 parámetros: coordenada x, coordenada y, diámetro.
 
-<https://p5js.org/reference/p5/ellipse/>
-<https://p5js.org/reference/p5/circle/>
+- <https://p5js.org/reference/p5/ellipse/>
+- <https://p5js.org/reference/p5/circle/>
 
 todas las circunferencias son elipses, pero no todas las elipses son circunferencias.
 
